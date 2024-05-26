@@ -28,7 +28,7 @@ function checkGuess() {
   attemptsLeft.textContent = maxAttempts - attempts;
 
   if (guess === randomNumber) {
-    resultMessage.textContent = "You win!🤑";
+    resultMessage.textContent = "You win!🏆🎉";
     gameContainer.classList.add("win-effect");
     winSound.play();
     disableGame();
