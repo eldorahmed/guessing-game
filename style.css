@@ -1,0 +1,28 @@
+@keyframes lose {
+    0% {
+        box-shadow: 0 0 5px #eb3434, 0 0 10px #eb3434, 0 0 20px #eb3434, 0 0 40px #eb3434;
+    }
+    100% {
+        box-shadow: 0 0 20px #eb3434, 0 0 40px #eb3434, 0 0 80px #eb3434, 0 0 160px #eb3434;
+    }
+}
+
+.lose-effect {
+    animation: lose 1s infinite alternate;
+    background-color: #eb3434; 
+}
+
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px #34D399, 0 0 10px #34D399, 0 0 20px #34D399, 0 0 40px #34D399;
+    }
+    100% {
+        box-shadow: 0 0 20px #34D399, 0 0 40px #34D399, 0 0 80px #34D399, 0 0 160px #34D399;
+    }
+}
+
+.win-effect {
+    animation: glow 1s infinite alternate;
+    background-color: #34D399; 
+}
